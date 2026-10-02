@@ -1,3 +1,14 @@
+## 说明：
+1. 对于数据集从'https://www.kaggle.com/c/dogs-vs-cats/data'进行下载，下载后在该项目内的结构为
+
+```
+practice2_cnn/dc/train/   25000 张有标签图片（cat 12500 / dog 12500）
+practice2_cnn/dc/test/    12500 张无标签图片（原测试集，无标签，故仅用于推理演示）
+```
+2. 'best_fc_baseline.pt'由于文件大小问题而未上传
+
+
+
 # Jotang-ml-task2
 
 深度学习作业二：先用手写卷积拆开一张图片，再用 PyTorch 搭建 CNN 完成 Kaggle Dogs vs. Cats 猫狗二分类。
